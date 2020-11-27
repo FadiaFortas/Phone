@@ -1,0 +1,280 @@
+/* CSS files add styling rules to your content */
+
+.name {
+  text-align: center;
+  font-size: 450%;
+  margin-top: 0;
+  text-transform: capitalize;
+  color: white;
+  background: #8b0415;
+}
+
+.firstpart {
+  display: inline-block;
+  width: 50%;
+  margin-top: 1em;
+  float: center;
+}
+.infopart {
+  display: inline-block;
+  width: 47%;
+  background: black;
+  margin-left: 1em;
+  margin-top: 1em;
+  float: center;
+  vertical-align: top;
+  padding: 0.5em;
+}
+#overview {
+  font-size: 180%;
+  color: white;
+  padding: 0.5em;
+}
+.title {
+  text-align: center;
+  font-size: 250%;
+  padding: 0.1em;
+  text-transform: capitalize;
+  color: #db0c26;
+}
+p {
+  font-size: 160%;
+  text-align: center;
+  word-spacing: 5px;
+}
+#plot {
+  font-size: 160%;
+  text-align: center;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  word-spacing: 5px;
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li {
+  float: right;
+}
+li a {
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  display: block;
+}
+li a: {
+  background-color: #111;
+}
+.lacasa {
+  padding: 12px 14px;
+  float: left;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.container {
+  margin: 0.5em;
+  width: 100%;
+}
+.characters {
+  display: grid;
+  grid-auto-rows: 70px;
+  grid-gap: 2px;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.character1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.character1 img {
+  object-position: 0 10%;
+}
+.character2 {
+  grid-column: 3 / span 3;
+  grid-row: 1 / span 2;
+}
+.character2 img {
+  object-position: 0 10%;
+}
+.character3 {
+  grid-column: 6 / span 1;
+  grid-row: 1 / span 4;
+}
+.character3 img {
+  object-position: 0 17%;
+}
+.character4 {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+}
+.character4 img {
+  object-position: 0 12%;
+}
+.character8 {
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 1;
+}
+.character8 img {
+  object-position: 0 35%;
+}
+.character5 {
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 2;
+}
+.character5 img {
+  object-position: 0 10%;
+}
+.character7 {
+  grid-column: 1 / span 3;
+  grid-row: 5 / span 1;
+}
+.character7 img {
+  object-position: 0 33%;
+}
+.character6 {
+  grid-column: 4 / span 3;
+  grid-row: 5 / span 1;
+}
+.character6 img {
+  object-position: 0 25%;
+}
+.list {
+  margin: 0.5em;
+  width: 100%;
+  display: block;
+  background: #8b0415;
+}
+.imageleft {
+  display: inline-block;
+  width: 15%;
+}
+.textright {
+  display: inline-block;
+  width: 60%;
+  margin-left: 10em;
+  padding-top: 3em;
+  text-align: center;
+  font-size: 130%;
+  vertical-align: top;
+  color: white;
+}
+.link1 {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  margin-left:40%
+}
+.link2 {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  margin-left:50%;
+}
+.list2 {
+  margin: 0.5em;
+  width: 100%;
+  display: block;
+  background: #333333;
+}
+.textleft {
+  display: inline-block;
+  width: 60%;
+  margin-right: 9.9em;
+  margin-left: 4em;
+  padding-top: 3em;
+  text-align: center;
+  font-size: 130%;
+  vertical-align: top;
+  color: white;
+}
+.imageright {
+  display: inline-block;
+  width: 15%;
+}
+.textleft8 {
+  display: inline-block;
+  width: 60%;
+  margin-right: 11.8em;
+  margin-left: 4em;
+  padding-top: 3em;
+  text-align: center;
+  font-size: 130%;
+  vertical-align: top;
+  color: white;
+}
+@media screen and (max-width:760px){
+  .name{
+    
+  }
+  .firstpart{
+    width: 100%;
+  }
+  .lacasa{
+    font-size: 17px;
+  }
+  li a {
+    font-size: 14px;
+  }
+  .name{
+    font-size: 290%;
+  }
+  .infopart{
+   width: 100%; 
+    margin-right: 2em;
+    margin-left: 0em;
+    }
+  #overview {
+    font-size: 120%;}
+  p{
+    font-size: 120%;
+  }
+  .character3 img {
+  object-position: center;
+}
+  .container{
+    margin-left:0em;
+  }
+  .imageleft{
+    width:35%;
+  }
+  .textright{
+    width: 50%;
+  font-size: 60%; 
+  margin-left: 2.9em;
+  padding-top: 3em;
+  }
+  .imageright{
+    width:36%;
+  }
+  .textleft{
+    width: 50%;
+  font-size: 60%; 
+  margin-right: 5%;
+  margin-left:1%;
+  padding-top: 3em;
+  }
+  .textleft8{
+    width: 56%;
+  font-size: 60%; 
+  margin-right:5%;
+  margin-left:1%;
+  padding-top: 3em;
+  }
+  #link8{
+    margin-left:20%;
+  }
+}
